@@ -3,135 +3,491 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SSV Home Cleaning Services | Urban Company Style</title>
-<meta name="description" content="Professional Home Cleaning Services in Hyderabad">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Primary SEO -->
+<title>Home Cleaning Services in Hyderabad | SSV Home Cleaning Services</title>
+<meta name="description" content="SSV Home Cleaning Services offers professional deep cleaning, kitchen, bathroom, sofa, water tank & apartment cleaning across Hyderabad. Same-day service. Call +91 77299 46387 for a free quote.">
+<meta name="keywords" content="home cleaning services Hyderabad, deep cleaning Hyderabad, sofa cleaning Hyderabad, kitchen cleaning Hyderabad, bathroom cleaning Hyderabad, water tank cleaning Hyderabad, apartment cleaning Hyderabad, villa cleaning Hyderabad">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.ssvhomecleaning.in/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:site_name" content="SSV Home Cleaning Services">
+<meta property="og:title" content="Home Cleaning Services in Hyderabad | SSV Home Cleaning Services">
+<meta property="og:description" content="Professional home deep cleaning, kitchen, bathroom, sofa, water tank & apartment cleaning in Hyderabad. Book a same-day appointment.">
+<meta property="og:image" content="assets/images/hero-cleaning.jpg">
+<meta property="og:url" content="https://www.ssvhomecleaning.in/">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Home Cleaning Services in Hyderabad | SSV Home Cleaning Services">
+<meta name="twitter:description" content="Professional home deep cleaning, kitchen, bathroom, sofa & water tank cleaning in Hyderabad. Call +91 77299 46387.">
+<meta name="twitter:image" content="assets/images/hero-cleaning.jpg">
+
+<link rel="icon" type="image/png" href="assets/icons/favicon.png">
+<link rel="manifest" href="manifest.json">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-<style>
-:root{--p:#0F4C81;--s:#00A651;--a:#FFD700;}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Poppins,sans-serif;background:#f7f9fc;color:#222}
-.container{max-width:1280px;margin:auto;padding:0 20px}
-nav{position:sticky;top:0;background:#fff;z-index:1000;box-shadow:0 2px 20px rgba(0,0,0,.08)}
-.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.hero{padding:90px 0;background:linear-gradient(rgba(15,76,129,.75),rgba(15,76,129,.75)),url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=80') center/cover;color:#fff}
-.hero-grid,.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
-.hero h1{font-size:3.5rem;line-height:1.1}
-.btn{display:inline-block;padding:14px 26px;border-radius:12px;text-decoration:none;font-weight:600;margin:8px}
-.call{background:var(--s);color:#fff}.wa{background:#fff;color:var(--p)}
-section{padding:80px 0}
-h2{text-align:center;color:var(--p);margin-bottom:40px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
-.card{background:#fff;padding:24px;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
-.card i{font-size:34px;color:var(--p);margin-bottom:12px}
-.service-img{width:100%;height:180px;object-fit:cover;border-radius:14px;margin-bottom:15px}
-.gallery img{width:100%;height:250px;object-fit:cover;border-radius:18px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.stat{background:#fff;padding:25px;border-radius:18px;text-align:center}
-.cta{background:var(--p);color:#fff;padding:70px;border-radius:24px;text-align:center}
-footer{background:#081b2d;color:#fff;text-align:center;padding:40px}
-.float{position:fixed;bottom:20px;padding:14px 18px;border-radius:50px;color:#fff;text-decoration:none;font-weight:700;z-index:999}
-.phone{left:20px;background:var(--p)}
-.whatsapp{right:20px;background:var(--s)}
-.quote{right:20px;bottom:90px;background:var(--a);color:#000}
-@media(max-width:900px){
-.hero-grid,.about-grid{grid-template-columns:1fr}
-.hero h1{font-size:2.3rem}
-.stats{grid-template-columns:repeat(2,1fr)}
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+
+<!-- Structured Data: Organization + LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SSV Home Cleaning Services",
+  "image": "https://www.ssvhomecleaning.in/assets/images/hero-cleaning.jpg",
+  "telephone": "+91-77299-46387",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {"@type":"City","name":"Hyderabad"},
+    {"@type":"Place","name":"Gachibowli"},{"@type":"Place","name":"Hitech City"},
+    {"@type":"Place","name":"Madhapur"},{"@type":"Place","name":"Kondapur"},
+    {"@type":"Place","name":"Miyapur"},{"@type":"Place","name":"Kukatpally"},
+    {"@type":"Place","name":"Jubilee Hills"},{"@type":"Place","name":"Banjara Hills"},
+    {"@type":"Place","name":"Secunderabad"},{"@type":"Place","name":"Uppal"},
+    {"@type":"Place","name":"LB Nagar"},{"@type":"Place","name":"Manikonda"},
+    {"@type":"Place","name":"Nallagandla"},{"@type":"Place","name":"Attapur"}
+  ],
+  "url": "https://www.ssvhomecleaning.in/",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "20:00"
+  },
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Home Deep Cleaning","areaServed":"Hyderabad"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kitchen Cleaning","areaServed":"Hyderabad"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bathroom Cleaning","areaServed":"Hyderabad"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Sofa Cleaning","areaServed":"Hyderabad"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Water Tank Cleaning","areaServed":"Hyderabad"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Apartment & Villa Cleaning","areaServed":"Hyderabad"}}
+  ]
 }
-</style>
+</script>
+
+<!-- Structured Data: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SSV Home Cleaning Services",
+  "url": "https://www.ssvhomecleaning.in/"
+}
+</script>
+
+<!-- Structured Data: FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which areas in Hyderabad do you cover?",
+      "acceptedAnswer": {"@type":"Answer","text":"We currently serve Gachibowli, Hitech City, Madhapur, Kondapur, Miyapur, Kukatpally, Jubilee Hills, Banjara Hills, Secunderabad, Uppal, LB Nagar, Manikonda, Nallagandla, Attapur and surrounding parts of Hyderabad."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide same-day home cleaning service?",
+      "acceptedAnswer": {"@type":"Answer","text":"Yes, same-day appointments are available in most serviceable areas of Hyderabad, subject to team availability. Call or WhatsApp us to check a slot for today."}
+    },
+    {
+      "@type": "Question",
+      "name": "What cleaning products do you use?",
+      "acceptedAnswer": {"@type":"Answer","text":"Our team uses professional-grade, eco-friendly cleaning products and equipment suited to each surface, so your home is cleaned safely and thoroughly."}
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get a price quote?",
+      "acceptedAnswer": {"@type":"Answer","text":"Call or WhatsApp us with your home size and the services you need, and our team will share a clear quote before booking your appointment."}
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
-<nav>
-<div class="container nav">
-<h3>SSV Home Cleaning Services</h3>
-<div>📞 +91 77299 46387</div>
+<nav class="navbar">
+<div class="container nav-inner">
+<a href="index.html" class="brand">
+<span class="brand-mark">S</span> SSV Home Cleaning
+</a>
+<ul class="nav-links">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="nav-cta">
+<a href="tel:+917729946387" class="nav-phone"><i class="fa-solid fa-phone"></i><span>+91 77299 46387</span></a>
+<a href="tel:+917729946387" class="btn btn-cta">Call Now</a>
+<button class="nav-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+</div>
 </div>
 </nav>
 
-<section class="hero">
+<header class="hero">
 <div class="container hero-grid">
 <div>
-<h1>Professional Home Cleaning Services at Your Doorstep</h1>
-<p>Deep Cleaning, Sofa Cleaning, Kitchen Cleaning, Bathroom Cleaning, Water Tank Cleaning and Complete Home Sanitization Services.</p>
-<a href="tel:+917729946387" class="btn call">Call Now</a>
-<a href="https://wa.me/917729946387" class="btn wa">WhatsApp Now</a>
+<span class="eyebrow" style="background:rgba(201,162,39,.18);color:var(--gold)">Hyderabad's Home Cleaning Specialists</span>
+<h1>A Spotless Home, Booked in One Call</h1>
+<p class="lead">Deep cleaning, kitchen, bathroom, sofa, water tank and full apartment or villa cleaning &mdash; delivered by trained, verified professionals across Hyderabad.</p>
+<div class="hero-actions">
+<a href="tel:+917729946387" class="btn btn-cta"><i class="fa-solid fa-phone"></i> Call Now</a>
+<a href="https://wa.me/917729946387" class="btn btn-outline"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
 </div>
-<div>
-<img src="https://media.istockphoto.com/id/1417833200/photo/happy-professional-cleaners-cleaning-a-bathroom-at-an-apartment.jpg?s=2048x2048&w=is&k=20&c=U7CoMVG6D4QWyXgC8-xlukhzAzyzaXRDLI1v_CEzKA0=" style="width:100%;border-radius:20px">
+<div class="hero-badges">
+<div class="hero-badge"><i class="fa-solid fa-shield-halved"></i> Verified Staff</div>
+<div class="hero-badge"><i class="fa-solid fa-leaf"></i> Eco-Friendly Products</div>
+<div class="hero-badge"><i class="fa-solid fa-bolt"></i> Same-Day Slots</div>
 </div>
 </div>
-</section>
+<div class="hero-media">
+<img src="assets/images/hero-cleaning.jpg" width="700" height="520" alt="Professional cleaner deep cleaning a modern home in Hyderabad" loading="eager">
+<div class="hero-floating-card">
+<div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+<div><strong>14+ Areas</strong><span>Covered across Hyderabad</span></div>
+</div>
+</div>
+</div>
+</header>
 
-<section>
+<div class="stats-bar">
 <div class="container">
-<div class="stats">
-<div class="stat"><h2>100+</h2><p>Homes Cleaned</p></div>
-<div class="stat"><h2>4.9★</h2><p>Customer Rating</p></div>
-<div class="stat"><h2>Same Day</h2><p>Service</p></div>
-<div class="stat"><h2>100%</h2><p>Satisfaction</p></div>
+<div class="stats-grid">
+<div class="stat-item"><div class="num" data-count="14" data-suffix="+">0</div><div class="label">Areas Covered</div></div>
+<div class="stat-item"><div class="num" data-count="6" data-suffix="+">0</div><div class="label">Cleaning Services</div></div>
+<div class="stat-item"><div class="num" data-count="7">0</div><div class="label">Days a Week Open</div></div>
+<div class="stat-item"><div class="num" data-count="100" data-suffix="%">0</div><div class="label">Eco-Friendly Products</div></div>
 </div>
 </div>
-</section>
+</div>
 
-<section>
+<section id="services">
 <div class="container">
-<h2>Popular Services</h2>
+<div class="section-head">
+<span class="eyebrow">Our Services</span>
+<h2>Home Cleaning Services in Hyderabad</h2>
+<p>Pick a single service or bundle a few &mdash; every job is scoped and quoted before we start.</p>
+</div>
 <div class="grid">
-<div class="card"><img class="service-img" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"><h3>Home Deep Cleaning</h3></div>
-<div class="card"><img class="service-img" src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80"><h3>Kitchen Cleaning</h3></div>
-<div class="card"><img class="service-img" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80"><h3>Bathroom Cleaning</h3></div>
-<div class="card"><img class="service-img" src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"><h3>Sofa Cleaning</h3></div>
+<div class="card">
+<img class="service-img" src="assets/images/service-deep-cleaning.jpg" width="800" height="450" alt="Home deep cleaning service in Hyderabad" loading="lazy">
+<h3>Home Deep Cleaning</h3>
+<p>Floor-to-ceiling cleaning of every room, including hard-to-reach corners, fans, and switchboards.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+<div class="card">
+<img class="service-img" src="assets/images/service-kitchen.jpg" width="800" height="450" alt="Kitchen deep cleaning service in Hyderabad" loading="lazy">
+<h3>Kitchen Cleaning</h3>
+<p>De-greasing of chimneys, hobs, cabinets, tiles and countertops for a hygienic cooking space.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+<div class="card">
+<img class="service-img" src="assets/images/service-bathroom.jpg" width="800" height="450" alt="Bathroom cleaning and sanitization service in Hyderabad" loading="lazy">
+<h3>Bathroom Cleaning</h3>
+<p>Descaling, tile and grout cleaning, and sanitization of fittings and fixtures.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+<div class="card">
+<img class="service-img" src="assets/images/service-sofa.jpg" width="800" height="450" alt="Sofa and upholstery cleaning service in Hyderabad" loading="lazy">
+<h3>Sofa &amp; Upholstery Cleaning</h3>
+<p>Shampooing and stain treatment for sofas, mattresses, and carpets.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+<div class="card">
+<img class="service-img" src="assets/images/service-water-tank.jpg" width="800" height="450" alt="Water tank cleaning service in Hyderabad" loading="lazy">
+<h3>Water Tank Cleaning</h3>
+<p>Sludge removal and sanitization of overhead and underground water tanks.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+<div class="card">
+<img class="service-img" src="assets/images/service-apartment.jpg" width="800" height="450" alt="Apartment and villa move-in cleaning service in Hyderabad" loading="lazy">
+<h3>Apartment &amp; Villa Cleaning</h3>
+<p>Full-property cleaning for move-in, move-out, or periodic upkeep.</p>
+<a href="services.html" class="card-link">Learn more →</a>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:#fff">
+<div class="container">
+<div class="section-head">
+<span class="eyebrow">How It Works</span>
+<h2>Book. Clean. Enjoy.</h2>
+<p>From your first call to a spotless home, in three simple steps.</p>
+</div>
+<div class="process-grid">
+<div class="process-step">
+<div class="step-num">1</div>
+<h3>Book</h3>
+<p>Call or WhatsApp us with your address and the services you need.</p>
+</div>
+<div class="process-step">
+<div class="step-num">2</div>
+<h3>Clean</h3>
+<p>Our trained team arrives on schedule with professional equipment and eco-friendly products.</p>
+</div>
+<div class="process-step">
+<div class="step-num">3</div>
+<h3>Enjoy</h3>
+<p>Walk into a spotless, sanitized home &mdash; and book your next clean whenever you need it.</p>
+</div>
 </div>
 </div>
 </section>
 
 <section>
 <div class="container">
-<h2>Before & After Results</h2>
-<div class="grid gallery">
-<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80">
-<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4d?auto=format&fit=crop&w=800&q=80">
-<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80">
-<img src="https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=800&q=80">
+<div class="section-head">
+<span class="eyebrow">Why Choose Us</span>
+<h2>Built for Trust, Not Just a One-Time Clean</h2>
 </div>
-</div>
-</section>
-
-<section>
-<div class="container">
-<h2>Why Choose Us</h2>
 <div class="grid">
-<div class="card"><i class="fa-solid fa-user-check"></i><h3>Trained Professionals</h3></div>
-<div class="card"><i class="fa-solid fa-leaf"></i><h3>Eco Friendly Products</h3></div>
-<div class="card"><i class="fa-solid fa-tags"></i><h3>Affordable Pricing</h3></div>
-<div class="card"><i class="fa-solid fa-headset"></i><h3>Reliable Support</h3></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-user-check"></i></div><h3>Verified Professionals</h3><p>Every team member is trained and identity-verified before assignment.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-leaf"></i></div><h3>Eco-Friendly Products</h3><p>Safe for children, pets, and people with allergies.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-tags"></i></div><h3>Transparent Pricing</h3><p>You get a clear quote by phone before any work begins &mdash; no surprises.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-headset"></i></div><h3>Responsive Support</h3><p>Reach us on call or WhatsApp for scheduling, changes, or questions.</p></div>
+</div>
+</div>
+</section>
+
+<section style="background:#fff">
+<div class="container">
+<div class="section-head">
+<span class="eyebrow">Equipment &amp; Products</span>
+<h2>Professional-Grade Equipment We Use</h2>
+</div>
+<div class="grid">
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-wind"></i></div><h3>HEPA Vacuum Systems</h3><p>For deep dust and allergen removal from carpets and upholstery.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-droplet"></i></div><h3>Steam Cleaning Equipment</h3><p>Chemical-free sanitization for kitchens and bathrooms.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-flask"></i></div><h3>Eco-Certified Cleaning Agents</h3><p>Biodegradable, non-toxic solutions safe for daily home use.</p></div>
+<div class="card"><div class="icon-badge"><i class="fa-solid fa-broom"></i></div><h3>Microfiber Tools</h3><p>Scratch-free cleaning for delicate surfaces and fittings.</p></div>
 </div>
 </div>
 </section>
 
 <section>
 <div class="container">
-<div class="cta">
-<h2 style="color:white">Ready For A Spotless Home?</h2>
-<p>Call or WhatsApp us today for a free quote.</p><br>
-<a href="tel:+917729946387" class="btn wa">Call +91 77299 46387</a>
-<a href="https://wa.me/917729946387" class="btn call">WhatsApp Now</a>
+<div class="section-head">
+<span class="eyebrow">Before &amp; After</span>
+<h2>See the Difference</h2>
+</div>
+<div class="gallery-tabs">
+<button class="gallery-tab active" data-filter="all">All</button>
+<button class="gallery-tab" data-filter="kitchen">Kitchen</button>
+<button class="gallery-tab" data-filter="bathroom">Bathroom</button>
+<button class="gallery-tab" data-filter="living">Living Room</button>
+</div>
+<div class="grid">
+<div data-category="kitchen">
+<div class="ba-pair">
+<img src="assets/images/before-kitchen.jpg" width="500" height="350" alt="Kitchen before professional deep cleaning" loading="lazy">
+<img src="assets/images/after-kitchen.jpg" width="500" height="350" alt="Kitchen after professional deep cleaning" loading="lazy">
+</div>
+<p class="ba-label">Kitchen &mdash; Before / After</p>
+</div>
+<div data-category="bathroom">
+<div class="ba-pair">
+<img src="assets/images/before-bathroom.jpg" width="500" height="350" alt="Bathroom before deep cleaning and descaling" loading="lazy">
+<img src="assets/images/after-bathroom.jpg" width="500" height="350" alt="Bathroom after deep cleaning and descaling" loading="lazy">
+</div>
+<p class="ba-label">Bathroom &mdash; Before / After</p>
+</div>
+<div data-category="living">
+<div class="ba-pair">
+<img src="assets/images/before-living.jpg" width="500" height="350" alt="Living room before sofa and floor cleaning" loading="lazy">
+<img src="assets/images/after-living.jpg" width="500" height="350" alt="Living room after sofa and floor cleaning" loading="lazy">
+</div>
+<p class="ba-label">Living Room &mdash; Before / After</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:#fff">
+<div class="container">
+<div class="section-head">
+<span class="eyebrow">Testimonials</span>
+<h2>What Hyderabad Homeowners Say</h2>
+<p style="font-size:.85rem;color:var(--ink-soft)">Sample reviews shown below &mdash; replace with your verified customer feedback before publishing.</p>
+</div>
+<div class="grid">
+<div class="testimonial-card">
+<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<p>"The team was punctual and thorough with our kitchen deep clean. Booking over WhatsApp was simple."</p>
+<div class="who"><div class="avatar">A</div><div><strong>Anitha R.</strong><span>Gachibowli</span></div></div>
+</div>
+<div class="testimonial-card">
+<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<p>"Booked a move-in cleaning for our new flat in Kondapur. The place was spotless before we moved our furniture in."</p>
+<div class="who"><div class="avatar">V</div><div><strong>Venkat K.</strong><span>Kondapur</span></div></div>
+</div>
+<div class="testimonial-card">
+<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+<p>"Good water tank cleaning service, arrived on the day we called. Would book again."</p>
+<div class="who"><div class="avatar">S</div><div><strong>Sunitha M.</strong><span>Madhapur</span></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-head">
+<span class="eyebrow">Service Areas</span>
+<h2>Home Cleaning Across Hyderabad</h2>
+</div>
+<div class="area-chip-grid">
+<span class="area-chip">Gachibowli</span><span class="area-chip">Hitech City</span>
+<span class="area-chip">Madhapur</span><span class="area-chip">Kondapur</span>
+<span class="area-chip">Miyapur</span><span class="area-chip">Kukatpally</span>
+<span class="area-chip">Jubilee Hills</span><span class="area-chip">Banjara Hills</span>
+<span class="area-chip">Secunderabad</span><span class="area-chip">Uppal</span>
+<span class="area-chip">LB Nagar</span><span class="area-chip">Manikonda</span>
+<span class="area-chip">Nallagandla</span><span class="area-chip">Attapur</span>
+</div>
+</div>
+</section>
+
+<section style="background:#fff">
+<div class="container">
+<div class="section-head">
+<span class="eyebrow">FAQ</span>
+<h2>Frequently Asked Questions</h2>
+</div>
+<div style="max-width:760px;margin:0 auto">
+<div class="faq-item">
+<div class="faq-q">Which areas in Hyderabad do you cover? <i class="fa-solid fa-plus"></i></div>
+<div class="faq-a"><p>We currently serve Gachibowli, Hitech City, Madhapur, Kondapur, Miyapur, Kukatpally, Jubilee Hills, Banjara Hills, Secunderabad, Uppal, LB Nagar, Manikonda, Nallagandla, Attapur and surrounding parts of Hyderabad.</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Do you provide same-day home cleaning service? <i class="fa-solid fa-plus"></i></div>
+<div class="faq-a"><p>Yes, same-day appointments are available in most serviceable areas, subject to team availability. Call or WhatsApp us to check a slot for today.</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What cleaning products do you use? <i class="fa-solid fa-plus"></i></div>
+<div class="faq-a"><p>Our team uses professional-grade, eco-friendly cleaning products and equipment suited to each surface, so your home is cleaned safely and thoroughly.</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">How do I get a price quote? <i class="fa-solid fa-plus"></i></div>
+<div class="faq-a"><p>Call or WhatsApp us with your home size and the services you need, and our team will share a clear quote before booking your appointment.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="cta-band">
+<h2>Ready for a Spotless Home?</h2>
+<p>Call or WhatsApp us today for a free quote in Hyderabad.</p>
+<a href="tel:+917729946387" class="btn btn-cta"><i class="fa-solid fa-phone"></i> Call +91 77299 46387</a>
+<a href="https://wa.me/917729946387" class="btn btn-gold"><i class="fa-brands fa-whatsapp"></i> WhatsApp Now</a>
 </div>
 </div>
 </section>
 
 <footer>
-<h3>SSV Home Cleaning Services</h3>
-<p>Hyderabad, Telangana</p>
-<p>+91 77299 46387 • ssvhomecleaning.in</p>
-<p>© 2026 All Rights Reserved</p>
+<div class="container">
+<div class="footer-grid">
+<div>
+<a href="index.html" class="brand" style="color:#fff"><span class="brand-mark">S</span> SSV Home Cleaning</a>
+<p style="margin-top:14px;font-size:.9rem;color:#a9c2d8">Professional home cleaning services across Hyderabad, Telangana.</p>
+<div class="social-row">
+<a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://wa.me/917729946387" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+</div>
+<div>
+<h4>Company</h4>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Services</h4>
+<ul>
+<li><a href="services.html">Deep Cleaning</a></li>
+<li><a href="services.html">Kitchen Cleaning</a></li>
+<li><a href="services.html">Bathroom Cleaning</a></li>
+<li><a href="services.html">Water Tank Cleaning</a></li>
+</ul>
+</div>
+<div>
+<h4>Contact</h4>
+<ul>
+<li><i class="fa-solid fa-phone"></i> <a href="tel:+917729946387">+91 77299 46387</a></li>
+<li><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana</li>
+<li><i class="fa-regular fa-clock"></i> Open 7 days, 8 AM &ndash; 8 PM</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 SSV Home Cleaning Services. All Rights Reserved.
+<a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Conditions</a></p>
+</div>
 </footer>
 
-<a class="float phone" href="tel:+917729946387">Call</a>
-<a class="float whatsapp" href="https://wa.me/917729946387">WhatsApp</a>
-<a class="float quote" href="tel:+917729946387">Free Quote</a>
+<div class="float-actions">
+<a class="float-btn call" href="tel:+917729946387" aria-label="Call SSV Home Cleaning Services"><i class="fa-solid fa-phone"></i></a>
+<a class="float-btn whatsapp" href="https://wa.me/917729946387" aria-label="WhatsApp SSV Home Cleaning Services"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+<button class="float-quote-btn" data-open-quote><i class="fa-solid fa-clipboard-list"></i> Free Quote</button>
 
+<div class="modal-overlay" id="quoteModal">
+<div class="modal-box">
+<button class="modal-close" aria-label="Close">&times;</button>
+<h3>Get a Free Quote</h3>
+<p>Tell us what you need and we'll call you back shortly.</p>
+<form id="quoteForm">
+<div class="form-row">
+<label for="qName">Name</label>
+<input type="text" id="qName" name="name" required>
+</div>
+<div class="form-row">
+<label for="qPhone">Phone Number</label>
+<input type="tel" id="qPhone" name="phone" required>
+</div>
+<div class="form-row">
+<label for="qService">Service Needed</label>
+<select id="qService" name="service">
+<option>Home Deep Cleaning</option>
+<option>Kitchen Cleaning</option>
+<option>Bathroom Cleaning</option>
+<option>Sofa Cleaning</option>
+<option>Water Tank Cleaning</option>
+<option>Apartment / Villa Cleaning</option>
+</select>
+</div>
+<button type="submit" class="btn btn-cta" style="width:100%;justify-content:center">Request Callback</button>
+</form>
+</div>
+</div>
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>

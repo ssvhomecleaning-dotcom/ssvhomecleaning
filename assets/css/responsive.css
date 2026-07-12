@@ -1,0 +1,40 @@
+/* ===================================================================
+   SSV Home Cleaning Services — Responsive Stylesheet
+   Mobile-first breakpoints layered on top of style.css
+   =================================================================== */
+
+/* Tablets */
+@media (max-width: 1024px){
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .stat-item{border-right:none;border-bottom:1px solid rgba(255,255,255,.12)}
+}
+
+/* Small tablets / large phones */
+@media (max-width: 900px){
+  .hero-grid,.about-grid{grid-template-columns:1fr}
+  .hero{padding:56px 0 80px}
+  .hero-media{order:-1}
+  .hero-floating-card{left:16px;bottom:-20px;padding:14px 18px}
+  .process-grid{grid-template-columns:1fr}
+  .nav-links{
+    position:fixed;top:70px;left:0;right:0;background:#fff;flex-direction:column;
+    align-items:flex-start;padding:20px 24px;gap:18px;box-shadow:0 12px 24px rgba(0,0,0,.08);
+    transform:translateY(-120%);opacity:0;transition:transform .25s ease,opacity .25s ease;
+  }
+  .nav-links.open{transform:translateY(0);opacity:1}
+  .nav-toggle{display:block}
+  .nav-phone span{display:none}
+}
+
+/* Phones */
+@media (max-width: 640px){
+  section{padding:56px 0}
+  .hero h1{font-size:1.9rem}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .ba-pair img{height:150px}
+  .footer-grid{grid-template-columns:1fr}
+  .cta-band{padding:40px 22px}
+  .float-quote-btn{padding:12px 16px;font-size:.85rem}
+  .float-btn{width:52px;height:52px;font-size:1.1rem}
+}

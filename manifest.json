@@ -1,0 +1,12 @@
+{
+  "name": "SSV Home Cleaning Services",
+  "short_name": "SSV Cleaning",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#0f4c81",
+  "description": "Professional home cleaning services in Hyderabad, Telangana.",
+  "icons": [
+    { "src": "assets/icons/favicon.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}
